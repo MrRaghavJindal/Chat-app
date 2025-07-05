@@ -18,7 +18,7 @@ const PORT = process.env.PORT;
 app.use(
   cors({
     // origin: "http://localhost:5173",
-    origin: "https://chat-app-psi-two-27.vercel.app",
+    origin: "https://chat-appy.vercel.app",
     credentials: true,
   })
 );
